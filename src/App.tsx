@@ -1,33 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
 function App() {
-  const [count, setCount] = useState(0)
+
+  const IntroComponent = () => {
+    return (
+    <div className="flex flex-row items-center justify-center gap-8">
+      <div className="text-slate-100">
+        <h1 className="text-2xl font-bold">Hey there! I'm <span className="text-amber-500">Carl</span></h1>
+        <p className="">Passionate about all things code 💻</p>
+        <p className="">Constantly learning 🔭</p>
+        <p className="">Ramen lover 🍜</p>
+      </div>
+      <div>
+        <img className="w-48 rounded-lg" src="src/assets/IMG_0812.jpg"/>
+      </div>
+    </div>
+    )
+  }
 
   return (
     <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <IntroComponent />
     </div>
   )
 }
