@@ -15,7 +15,7 @@ export default function Navbar() {
       className="flex justify-between items-center h-16 w-full z-10 bg-white text-black fixed shadow-sm font-mono"
       style={{ top: top, transition: "top 0.3s" }}
     >
-      <a href="#" className="pl-8">
+      <a href="#" className="ml-8">
         <h3>CG</h3>
       </a>
       <div className="flex items-center pr-8">
@@ -37,10 +37,18 @@ export default function Navbar() {
         >
           03. Contact
         </a>
-        <a href="https://github.com/carl1330" target="_blank" className="p-4">
+        <a
+          href="https://github.com/carl1330"
+          target="_blank"
+          className="mx-4 hover:scale-125 transition-all"
+        >
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/carl-gulliksson/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/carl-gulliksson/"
+          target="_blank"
+          className="hover:scale-125 transition-all"
+        >
           <FaLinkedin />
         </a>
       </div>
