@@ -11,6 +11,8 @@ export default function App() {
     "CloudFlare",
     "Gorilla/Websockets",
     "PostgreSQL",
+    "Docker",
+    "GitHub Actions",
   ];
   return (
     <main>
