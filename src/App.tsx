@@ -25,8 +25,9 @@ export default function App() {
           development started when I started watching youtube tutorials on how
           to make games in Game Maker, after that I was hooked.
           <br />
-          <br />I recently graduated from <strong>Umeå University</strong> with
-          a bachelor degree in Computer Science. I love learning new things and
+          <br />
+          I'm graduating from <strong>Umeå University</strong> with a bachelor
+          degree in Computer Science this summer. I love learning new things and
           trying the latest technologies. When I am working on new projects I
           enjoy the entire process from designing in Figma to implementing the
           backend in languages like Golang.
