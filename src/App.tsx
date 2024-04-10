@@ -22,8 +22,8 @@ export default function App() {
         <p className="border border-black border-dashed p-4 shadow-md">
           My name is <strong>Carl</strong> and for as long as I can remember I
           have been interested in technology and computers. My love for software
-          development started when I started watching youtube tutorials on how
-          to make games in Game Maker, after that I was hooked.
+          development started when I found youtube tutorials on how to make
+          games in Game Maker, after that I was hooked.
           <br />
           <br />
           I'm graduating from <strong>Umeå University</strong> with a bachelor
