@@ -50,7 +50,11 @@ export default function App() {
           </div>
         </p>
       </Section>
-      <Section id="projects" title="02. Projects">
+      <Section
+        id="projects"
+        title="02. Projects"
+        className="flex flex-col gap-4"
+      >
         <ProjectNote
           title="Oshirigame"
           technologies={[
@@ -69,6 +73,17 @@ export default function App() {
           A word game inspired by the Japanese game show バナナサンド (Banana
           Sando), where players try to create the longest words possible to earn
           points.
+        </ProjectNote>
+        <ProjectNote
+          title="RadioInfo"
+          technologies={["Java", "REST", "JUnit", "TDD"]}
+          githubUrl="https://github.com/carl1330/radioinfo"
+          projectUrl="https://github.com/carl1330/radioinfo"
+          screenshot="../public/radioinfo.png"
+        >
+          A desktop application that displays the schedule of a selected radio
+          channel from Swedish Radio (SR). Developed using Test Driven
+          Development.
         </ProjectNote>
       </Section>
       <Section id="contact" title="03. Contact">

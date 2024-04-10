@@ -6,7 +6,7 @@ interface ProjectNoteProps {
   children?: React.ReactNode;
   screenshot?: string;
   githubUrl: string;
-  projectUrl: string;
+  projectUrl?: string;
 }
 
 export default function ProjectNote(props: ProjectNoteProps) {
