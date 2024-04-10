@@ -79,7 +79,7 @@ export default function App() {
           technologies={["Java", "REST", "JUnit", "TDD"]}
           githubUrl="https://github.com/carl1330/radioinfo"
           projectUrl="https://github.com/carl1330/radioinfo"
-          screenshot="../public/radioinfo.png"
+          screenshot="radioinfo.png"
         >
           A desktop application that displays the schedule of a selected radio
           channel from Swedish Radio (SR). Developed using Test Driven
